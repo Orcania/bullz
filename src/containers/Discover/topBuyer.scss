@@ -1,0 +1,215 @@
+.following-page {  
+
+    .follow-header{
+
+      .step-crumb{
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+        margin-bottom: 30px;
+        display: flex;
+        align-items: center;
+
+        @media screen and (min-width: 350px) and (max-width: 767px){
+          margin-bottom: 16px;
+        }
+
+        p{
+          margin-bottom: 0px;
+        }
+      }
+
+      .collection-page-title{
+        font-family: 'Sequel 100 Wide';
+        font-style: normal;
+        font-weight: 324;
+        font-size: 24px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+
+        color: #FFFFFF;
+        margin-bottom: 24px;
+
+      }
+
+      .search-bar{
+        margin-bottom: 24px;
+      }
+      .follow-title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 38px;
+
+        color: #FFFFFF;
+
+        @media (min-width:350px) and (max-width:1023px){
+          font-size: 24px;
+          line-height: 31px;
+          letter-spacing: 0.02em;
+        }
+      }
+      .button-group {
+        display: flex;
+        margin-top: 16px;
+        .btn-continue {
+          padding: 8px 24px;
+          font-size: 30px;
+          line-height: 38px;
+          font-weight: 700;
+          margin-bottom: 0;
+          
+          width: 82px;
+          height: 57px;
+          &.not-allow {
+            background-color: transparent;
+            color: #888889;
+          }
+        }
+
+        .btn-continue:not(:last-child){
+          margin-right: 32px;
+        }
+      }
+    }
+
+    .follow-item-container{
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+
+      @media (min-width:350px) and (max-width:1023px){
+        justify-content: space-between;
+      }
+
+      .follow-item{
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+        position: relative;
+
+        @media (min-width:1024px) and (max-width:1439px){
+          flex: 0 0 33.33%;
+          max-width: 33.33%;
+        }
+
+        @media (min-width:350px) and (max-width:1023px){
+          flex: 0 0 48%;
+          max-width: 48%;
+        }
+
+        
+        .small_coming_card{
+          @media (min-width:350px) and (max-width:1023px){
+            margin-right: 0px;
+          }
+          .card-actions{
+            width: 106px;
+            margin-left: auto;
+        
+            .btn-continue {
+              width: 106px;
+              height: 33px;
+              padding: 8px 32px;
+            }
+          
+            .btn-sign {
+              width: 106px;
+              height: 33px;
+              padding: 8px 32px;
+              border-color: #4353FF;
+              color: #4353FF;
+            }
+          }
+        }
+      }
+    }
+
+    .follow-content{
+      margin-top: 20px;
+      margin-bottom: 100px;
+
+      @media(min-width:350px) and (max-width:1023px){
+        margin-top: 30px;
+      }
+    }
+      
+    .profile-content {
+      position: relative;
+  
+      .profile-info1 {
+        padding-top: 100px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        // padding-right: 150px;
+  
+        .info-lead {
+          color: white;
+        }
+  
+        .info-sub-lead {
+          color: #5f5f5f;
+          max-width: 380px;
+          text-align: center;
+        }
+  
+        .hex-group {
+          display: flex;
+          align-items: center;
+          margin-bottom: 1rem;
+  
+          .hex-name {
+            color: white;
+            font-size: 15px;
+            margin-bottom: 0;
+            margin-right: 25px;
+          }
+  
+          .info-sub-lead {
+            margin-bottom: 0;
+          }
+  
+          img {
+            width: 15px;
+            margin-left: 10px;
+          }
+        }
+  
+        .follower-group {
+          display: flex;
+  
+          .info-lead {
+            margin-right: 40px;
+  
+            &:last-child {
+              margin-right: 0;
+            }
+          }
+        }
+  
+        .btn-continue {
+          padding: 10px 30px;
+        }
+  
+        .social-wrapper {
+          display: flex;
+          align-items: center;
+          margin-bottom: 30px;
+  
+          img {
+            width: 43px;
+            margin-right: 15px;
+          }
+  
+          .info-sub-lead {
+            margin-bottom: 0;
+            margin-right: 20px;
+          }
+        }
+      }
+    }
+  }
+  
+  

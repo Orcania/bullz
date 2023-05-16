@@ -1,0 +1,172 @@
+.dialog-container{
+    .modal-body{
+        padding: 0;
+    }
+}
+
+.wallet-connect-container{
+    border-radius: 20px;
+    padding: 40px 50px 32px 50px;
+    background-color: #1C1C1C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 570px;
+
+    @media screen and (max-width: 550px) {
+        padding: 32px 16px;
+        margin: 0px 20px;
+    }
+
+    .logo-img{
+        height: 32px;
+        width: 93px;
+        margin-bottom: 14px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        margin-bottom: 24px;
+        text-align: center;
+
+        @media screen and (max-width: 550px) {
+            margin-bottom: 16px;
+        }
+    }
+
+    .title {
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 32px;
+
+        @media screen and (max-width: 550px) {
+            font-size: 12px;
+            line-height: 15px;
+            margin-bottom: 16px;
+        }
+    }
+
+    .wallet-items-container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 43px;
+
+        @media (max-width: 550px) {
+            flex-direction: column;
+        }
+
+        .wallet-item-wrapper{
+            height: 150px;
+            width: 150px;
+            border-radius: 24px;
+            // border: 1px solid #262626;
+            border: none;
+            margin: 5px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s ease-in-out;
+            cursor: pointer;
+
+            @media screen and (max-width: 550px){
+                height: 40px;
+                width: 100%;
+                flex-direction: row;
+                margin: 8px;
+            }
+
+            img{
+                @media screen and (max-width: 550px){
+                    width: 20px;
+                }
+            }
+
+            &:hover{
+                background-color: #262626;
+            }
+
+            &.selected{
+                background-color: #4353FF;
+            }
+        }
+
+        .wallet-item{
+            height: 32px;
+            width: auto;
+            cursor: pointer;
+
+            @media screen and (min-width: 350px) and (max-width: 1023px) {
+                height: 20px;
+            }
+        }
+        .wallet-name{
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 18px;
+            width: 100%;
+            text-align: center;
+            align-items: center;
+            letter-spacing: 0.02em;
+            color: #FFFFFF;
+            margin-bottom: 0px;
+            margin-top: 8px;
+            @media screen and (max-width: 550px){
+                width: 15%;
+                text-align: start;
+                margin-left: 16px;
+                margin-top: 0px;
+            }
+        }
+    }
+
+    .btn-continue{
+        width: 100%;
+        margin-bottom: 0px;
+        height: 40px;
+        margin-top: 32px;
+    }
+
+    .btn-cancel{
+        margin-top: 20px;
+        margin-bottom: 0px;
+    }
+
+    .agreement-container{
+        width: 100%;
+        display: flex;
+        align-items: center;
+
+
+        .MuiCheckbox-root{
+            color: #8E8E8E;
+        }
+
+        .Mui-checked{
+            color: #8E8E8E;
+        }
+
+        .checkbox-container{
+            width: auto;
+        }
+
+        .agreement{
+            p{
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 131.65%;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                margin-bottom: 0px !important;
+                margin-top: 8px;
+            }
+        }
+    }
+}

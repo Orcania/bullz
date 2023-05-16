@@ -1,0 +1,157 @@
+.custom-alert-modal {
+    .MuiDialog-paperWidthSm {
+      // max-width: 288px;
+      max-width: auto;
+      background-color: #1C1C1C;
+      height: auto;
+      padding: 32px 24px;
+      border-radius: 20px;
+
+      @media screen and (min-width: 350px) and (max-width: 767px){
+        padding: 40px 16px 40px 16px;
+      }
+    }
+
+    .MuiDialog-paper{
+      @media screen and (min-width: 350px) and (max-width: 767px){
+        margin: 16px;
+      }
+    }
+  
+    .title{
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 22px;
+      /* identical to box height */
+      text-align: center;
+      color: #FFFFFF;
+      margin-top: 8px;
+      margin-bottom: 23px;
+    }
+  
+    .MuiDialogContent-root{
+      padding: 0px !important;
+  
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+      .icon{
+        width: 54px;
+        height: 54px;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 24px;
+    
+        svg{
+            font-size: 35px;
+            color: #fff;
+        }
+
+        img{
+            height: 100%;
+            width: 100%;
+            object-fit: fill;
+        }
+
+        &.success{
+          background-color: green;
+        }
+
+        &.error{
+          background-color: red;
+        }
+      }
+
+      .custom-alert-icon{
+        margin-bottom: 16px;
+        svg{
+          height: 48px;
+          width: 48px;
+        }
+      }
+
+      .custom-alert-modal-title{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 19px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 18px;
+      }
+    }
+    .MuiTypography-root {
+      margin-bottom: 0px !important;
+    }
+  
+    .modal-text{
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #A0A0A0;
+      opacity: 0.71;
+      text-align: center;
+      margin-bottom: 28px;
+    }
+  
+    .btn-continue {
+      width: 100%;
+      margin-top: 0px;
+      margin-bottom: 0px;
+      height: 48px;
+      font-weight: 700;
+
+      span{
+        margin-right: 8px;
+
+        svg{
+          height: 24px;
+          width: 24px;
+        }
+      }
+    }
+
+    .share-modal-header {
+      position: relative;
+      padding: 3px 0px 9px !important;
+      top: -12px;
+  
+      .MuiTypography-root {
+        display: flex;
+        width: 100%;
+        margin-bottom: 8px;
+      }
+  
+      .main-title {
+        font-size: 18px;
+        font-weight: 700;
+        color: white;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+      }
+      .subtitle {
+        font-size: 13px;
+        font-weight: 700;
+        color: white;
+        margin-top: 10px;
+      }
+      .modal-dec {
+        font-size: 12px;
+        font-weight: 400;
+        color: #b0b3d0;
+        margin-top: 3px;
+      }
+      .close_button {
+        position: absolute;
+        top: 0px;
+        right: 0px !important;
+        color: #d2d2d2 !important;
+        width: 9px !important;
+        height: 9px !important;
+      }
+    }
+}

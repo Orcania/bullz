@@ -1,0 +1,137 @@
+.calendarMainDiv {
+  width: 220px;
+  /* height: 400px; */
+  // margin: 10px auto 0px;
+  background-color: #1C1C1C;;
+  border-radius: 8px;
+  padding: 10px;
+  color: white;
+}
+.monthYear {
+  margin: 5px auto 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  div{
+    cursor: pointer;
+  }
+}
+.monthYear h2 {
+  display: inline-block;
+  width: 85%;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+.monthYear img {
+  width: 8px;
+  height: 13px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.selectDay {
+  padding: 5px 0px;
+}
+table {
+  width: 100%;
+  font-size: 13px;
+  border-collapse: inherit;
+}
+.nameOfDay tr td {
+  width: 26px;
+  height: 26px;
+  margin: 0px 3px;
+  font-weight: 700;
+  text-align: center;
+}
+.selectDate tr td {
+  width: 26px;
+  height: 26px;
+  font-weight: bold;
+  border-radius: 50%;
+  text-align: center;
+  background-color: transparent;
+  cursor: pointer;
+}
+.selectDate table tr td:hover {
+  background-color: #262626 !important;
+}
+/**************************/
+
+.selectTime {
+  display: flex;
+  margin: 10px 0px;
+}
+.selectTimeContent {
+  width: 60%;
+  margin: auto;
+  text-align: left;
+  font-size: 13px;
+  font-family: 700;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 12px;
+
+  h6{
+    font-size: 12px;
+  }
+}
+.selectTimeInput {
+  width: 40%;
+  text-align: right;
+}
+.selectTimeInput input {
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  border: none;
+  color: white;
+  font-size: 13px;
+  text-align: center;
+  cursor: pointer;
+  border: 1px solid #373737;
+  border-radius: 4px;
+}
+.selectTimeInput input:focus {
+  outline: none;
+}
+.selectTimeContent span {
+  color: #fff;
+  font-size: 13px;
+}
+.selectTimeInput .secondsDots {
+  margin: 0px 6px;
+  font-size: 13px;
+}
+.applyButton {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.applyButton button {
+  padding: 7px 32px;
+  border: none;
+  border-radius: 50px;
+  font-size: 13px;
+  font-weight: bold;
+  background-color: #4353FF;
+  color: #fff;
+
+  font-style: normal;
+  font-weight: bold;
+  line-height: 17px;
+}
+.applyButton button:hover {
+  cursor: pointer;
+  background-color: #4353FF;
+}
+
+.calanderDialog{
+  .MuiDialog-paperWidthSm{
+    background-color: transparent;
+  }
+}

@@ -1,0 +1,29 @@
+.wc-modal-text{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.wc-modal-header {
+  position: relative;
+  padding: 16px 0px 9px !important;
+
+  .MuiTypography-root {
+    display: flex;
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .main-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+
+}

@@ -1,0 +1,99 @@
+.transfer-nft-modal{
+    padding: 40px 75px 30px 75px;
+    width: 632px;
+    background-color: #1C1C1C;
+    border-radius: 20px;
+
+    .MuiDialog-paperWidthSm {
+        overflow-y: auto;
+    }
+
+    @media (max-width: 768px) {
+        width: 98%;
+        padding: 30px 16px 20px 16px;
+        margin: 0px 2%;
+    }
+
+    .modal-title{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 23px;
+    }
+
+    .subtitle{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 24px;
+    }
+
+    .input-group{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 30px;
+
+        .label{
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 12px;
+            text-transform: uppercase;
+            color: #FFFFFF;
+            margin-bottom: 8px;
+        }
+
+        input{
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 16px;
+            color: #FFFFFF;
+            border-bottom: 2px solid #FFFFFF40;
+            border-right: 1px solid transparent !important;
+            border-top: 1px solid transparent !important;
+            border-left: 1px solid transparent !important;
+            background-color: transparent !important;
+            outline: none;
+
+            &:focus{
+                border-bottom: 2px solid #4353FF;
+                border-right: 1px solid transparent;
+                border-top: 1px solid transparent;
+                border-left: 1px solid transparent;
+            }
+        }
+
+        svg{
+            position: absolute;
+            right: 0;
+            top: 20px;
+        }
+    }
+
+    .actions{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .btn-continue{
+            width: 100%;
+            margin-bottom: 16px;
+            font-weight: 700;
+
+            &.cancel{
+                background-color: transparent;
+                font-weight: 600;
+                font-size: 12px;
+                line-height: 15px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+                margin-bottom: 0px;
+            }
+        }
+    }
+}

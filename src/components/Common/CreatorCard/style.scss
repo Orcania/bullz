@@ -1,0 +1,38 @@
+.creator-card {
+  background-color: #262626;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+
+  .card-number {
+    color: white;
+    font-size: 14px;
+    margin-bottom: 0;
+    margin-right: 10px;
+  }
+
+  .card-avatar {
+    margin-right: 10px;
+  }
+
+  .card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+
+    .card-name {
+      color: white;
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+
+    .card-eth {
+      color: #727070;
+      font-size: 14px;
+      margin-bottom: 0;
+    }
+  }
+}

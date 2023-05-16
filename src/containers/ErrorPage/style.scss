@@ -1,0 +1,72 @@
+.error-page{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin : 70px 0px 0px 0px;
+
+    .error-page-wrapper{
+        .error-page-img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img{
+                width: 399px;
+                height: 434px;
+
+                @media (max-width: 1023px){
+                    width: 264px;
+                    height: 288px;
+                }
+            }
+        }
+        .error-page-content{
+            position: relative;
+            top: -257px;
+            @media (max-width: 1023px){
+                top: -42px;
+            }
+
+            .error-page-title{
+                font-style: normal;
+                font-weight: bold;
+                font-size: 150px;
+                line-height: 200px;
+                text-align: center;
+                background: -webkit-linear-gradient(#FFFFFF, #121213);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                margin-bottom: -8px;
+
+                @media (max-width: 1023px){
+                    font-size: 80px;
+                    line-height: 80px;
+                }
+            }
+            .error-page-subtitle{
+                font-family: 'Sequel 100 Wide';
+                font-style: normal;
+                font-weight: 327;
+                font-size: 30px;
+                line-height: 35px;
+                text-align: center;
+
+                color: #FFFFFF;
+                margin-bottom: 60px;
+                text-align: center;
+
+                @media (max-width: 1023px){
+                    font-size: 13px;
+                    line-height: 17px;
+                }
+            }
+
+            .btn-continue{
+                margin: auto;
+                width: 224px;
+                height: 50px;
+            }
+        }
+    }
+}

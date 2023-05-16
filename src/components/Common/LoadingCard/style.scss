@@ -1,0 +1,105 @@
+.loading-card {
+    border-radius: 18px;
+    overflow: hidden;
+    margin-bottom: 30px;
+    width: 257px;
+    height: 372px;
+
+    @media screen and (min-width: 350px) and (max-width: 767px){
+      width: 110px;
+      height: 187px;
+    }
+
+    img{
+      @media screen and (min-width: 350px) and (max-width: 767px){
+        width: 110px;
+        height: 187px;
+      }
+    }
+  
+    &.multiple-card {
+      box-shadow: 0 2px 0 #4353FF;
+    }
+  
+    .card-image {
+      position: relative;
+  
+      .card-content-image {
+        width: 100%;
+        height: 255px;
+        object-fit: cover;
+      }
+  
+      .card-more {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 25px;
+        height: 25px;
+  
+        img {
+          cursor: pointer;
+          width: 100%;
+        }
+      }
+    }
+  
+    .card-content {
+      background: #262626;
+      padding: 10px 20px;
+      padding-bottom: 6px;
+      border-bottom:2px solid #383838;
+  
+      .title-image{
+        width: 143px;
+        height: 27px;
+        margin-bottom: 5px;
+      }
+
+      .circle-img{
+        width: 32px;
+        height: 32px;
+        border-radius: 16px;
+        margin-right: 10px;
+      }
+      
+      .sub-title-img{
+        width: 101px;
+        height: 18px;
+      }   
+    }
+
+    .card-footer{
+      padding-top: 9px;
+      background: #262626;
+
+      .footer1-img{
+        width: 101px;
+        height: 13px;
+      }
+
+      .footer2-img{
+        width: 63px;
+        height: 13px;
+      }
+
+      .like-wrapper {
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+
+        .like-img{
+          width: 18px;
+          height: 10px;
+          margin-right: 11px;
+        }
+        svg {
+          color: #8445f6;
+          width: 14px;
+          margin-right: 8px;
+        }
+      }
+    }
+  }
+  
+  

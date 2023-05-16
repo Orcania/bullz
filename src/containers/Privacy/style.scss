@@ -1,0 +1,124 @@
+.privacy-page {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  .privacy-content {
+    width: 696px;
+
+    @media (min-width:350) and (max-width:697px){
+      width: 100%;
+    }
+
+    @media (max-width: 992px) {
+      width: 75%;
+    }
+
+    @media (max-width: 768px) {
+      width: 100%;
+      padding: 0 20px;
+    }
+  }
+
+  .privacy-avatar {
+    margin: 80px 0 40px;
+  }
+
+  .title {
+    color: #606058;
+    font-size: 27px;
+    margin-bottom: 5px;
+  }
+
+  .description {
+    color: #f1f0d9;
+    margin-bottom: 30px;
+  }
+
+  .yellow-btn {
+    background-color: #4353FF;
+    padding: 15px 40px;
+    border-radius: 30px;
+    border: 0;
+    outline: none;
+    color: #171717 !important;
+    font-size: 15px;
+    text-decoration: none !important;
+
+    font-style: normal;
+    font-weight: bold;
+    line-height: 19px;
+    letter-spacing: 0.02em;
+
+    &:hover{
+      text-decoration: none;
+      opacity: 0.8;
+    }
+  }
+
+  .balance-wrapper {
+    background-color: #262626;
+    margin: 30px 0;
+    padding: 20px;
+
+    .balance {
+      p {
+        margin: 0;
+        color: #606058;
+
+        span {
+          color: #f1f0d9;
+          font-weight: bold;
+          font-size: 20px;
+        }
+      }
+    }
+
+    .actions {
+      button {
+        background-color: #171717;
+        border-radius: 30px;
+        padding: 7px 30px;
+        border: 0;
+        color: #f1f0d9;
+        margin-right: 35px;
+        outline: none;
+      }
+
+      p {
+        margin: 0;
+        background-color: #4353FF;
+        border-radius: 50%;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .links {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 60px;
+
+    .link {
+      width: min-content;
+      white-space: nowrap;
+      color: #393278;
+
+      @media (min-width:350px) and (max-width:1023px){
+        white-space:pre-wrap;
+      }
+    }
+  }
+
+  .descriptions {
+    padding-left: 25px;
+    color: #f1f0d9;
+  }
+}

@@ -1,0 +1,68 @@
+.explore-page .upload-section .detail-panel .price-card .card-actions .dropdown-item .dropdown-card.ntf-type {
+    padding-bottom: inherit !important;
+  }
+.customDropDownDate{
+    margin-top: -40px !important;
+}
+.customDropDownDate .MuiInputBase-inputMarginDense{
+    color: transparent !important;
+}
+.labelTextDropDown{
+    color:#838383;
+}
+
+.btn-disabled{
+    background-color: transparent !important;
+    border: 1px solid #464B4E !important;
+    color: #464B4E !important;
+}
+
+.selected{
+    border: solid 2px #4353FF !important;
+}
+
+
+  .disconnect-switch-network-modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+
+    &.modal-dialog{
+      max-width: 100vw !important;
+      margin: 0px !important;
+    }
+    .inner{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      img{
+        width: 87px;
+        height: 31px;
+        object-fit: fill;
+        margin-bottom: 18px;
+      }
+
+      .subtitle{
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 24px;
+        width: 278px;
+      }
+
+      .btn-continue{
+        background-color: #464B4E;
+        color: #A0A0A0;
+      }
+    }
+    
+  }
+
+.invalid-input{
+  border-color: red !important;
+}
+  

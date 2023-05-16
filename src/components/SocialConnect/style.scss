@@ -1,0 +1,128 @@
+.dialog-container{
+    .modal-body{
+        padding: 0;
+    }
+}
+
+.social-connect-container{
+    border-radius: 20px;
+    padding: 40px 75px;
+    background-color: #1C1C1C;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    width: 570px;
+
+    @media screen and (max-width: 767px) {
+        padding: 32px 18px;
+        margin: 0px 20px;
+    }
+
+    .logo-img{
+        height: 32px;
+        width: 93px;
+        margin-bottom: 14px;
+    }
+
+    .subtitle {
+        font-size: 14px;
+        line-height: 16px;
+        color: #FFFFFF;
+        margin-bottom: 24px;
+        text-align: center;
+        font-weight: 700;
+
+        @media screen and (max-width: 550px) {
+            margin-bottom: 16px;
+        }
+    }
+
+    .title {
+        font-size: 18px;
+        line-height: 27px;
+        text-align: center;
+        color: #FFFFFF;
+        margin-bottom: 40px;
+        font-weight: 700;
+
+        @media screen and (max-width: 550px) {
+            font-size: 12px;
+            line-height: 15px;
+            margin-bottom: 32px;
+        }
+    }
+
+    .social-items-container{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        .btn-insta{
+            background-color: #4353FF;
+            margin-bottom: 24px;
+            margin-top: 0px;
+            font-family: 'SF UI Text';
+            font-weight: 500;
+        }
+
+        .btn-twitter{
+            background: linear-gradient(90deg, #FBEC76 0%, #ED906A 19.8%, #D73E69 44.8%, #95509E 71.36%, #7057B9 100%);
+            margin-bottom: 0px;
+            margin-top: 0px;
+            margin-bottom: 20px;
+            font-family: 'SF UI Text';
+            font-weight: 500;
+        }
+
+        .social-input{
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding-bottom: 8px;
+            border-bottom: 2px solid #FFFFFF;
+            margin-top: 0px;
+            margin-bottom: 24px;
+            
+             
+            img{
+                height: 24px;
+                width: 24px;
+                margin-right: 8px;
+            }
+
+            input{
+                background-color: transparent;
+                outline: none;
+                border: none;
+                width: 90%;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 16px;
+                color: #FFFFFF;
+            }
+        }
+    }
+
+    .btn-continue{
+        width: 100%;
+        margin-bottom: 0px;
+        height: 40px;
+
+        @media screen and (max-width: 550px){
+            width: 100%;
+        }
+    }
+
+    .btn-later{
+        background-color: transparent;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+    }
+
+}

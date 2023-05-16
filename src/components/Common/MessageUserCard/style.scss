@@ -1,0 +1,116 @@
+.user-card {
+  padding: 8px;
+  border-radius: 8px;
+  width:265px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+
+  @media (min-width:350px) and (max-width:1023px){
+    width:100% !important;
+  }
+  .nft-avatar{
+    margin-right: 4px;
+    width: 15px;
+    height: 15px;
+    object-fit: cover;
+  }
+  .card-number {
+    color: white;
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.02em;
+    margin-bottom: 0;
+    background-color: #4353FF;
+    border-radius: 10px;
+    height: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3px;
+  }
+
+  .card-avatar {
+    margin-right: 8px;
+    width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      object-fit: cover;
+  }
+
+  .card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 171px;
+    .card-name {
+      font-style: normal;
+      margin-bottom: 6px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+      width: 100%;
+
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 17px;
+      color: #FFFFFF;
+    }
+
+    .card-eth {
+      margin-bottom: 0;
+      display: flex;
+      align-items: center;
+      font-style: normal;
+
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      color: #FFFFFF40;
+    
+    }
+  }
+  .unseen{
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background-color: #4353FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 11px;
+      line-height: 14px;
+      margin-bottom: 0px;
+      /* identical to box height */
+
+      letter-spacing: 0.02em;
+
+      color: white;
+    }
+  }
+}
+
+.is-active {
+  background-color: #4353FF;
+  border-radius: 8px;
+
+  .card-info {
+    .card-name {
+      color: white;
+    }
+
+    .card-eth {
+      color: white;
+      opacity: 0.4;
+    }
+  }
+
+  .card-number {
+    color: #4353FF;
+  }
+}

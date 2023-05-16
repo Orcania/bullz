@@ -1,0 +1,108 @@
+.manage-wallet-wrapper{
+    max-width: 491px;
+    margin: auto;
+    .header{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+        svg{
+            fill: #FFFFFF;
+            margin-right: 12px;
+        }
+
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 15px;
+        color: #FFFFFF;
+    }
+
+    .page-title{
+        font-style: normal;
+        font-weight: 324;
+        font-size: 24px;
+        line-height: 28px;
+        display: flex;
+        align-items: center;
+
+        color: #FFFFFF;
+        margin-top: 32px;
+        margin-bottom: 8px;
+    }
+
+    .page-subtitle{
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 24px;
+        color: #FFFFFF;
+        margin-bottom: 32px;
+    }
+
+    .wallet-item{
+        width: 100%;
+        background: #191A1B;
+        border-radius: 16px;
+        margin-bottom: 16px;
+        
+        display: flex;
+        align-items: center;
+        padding: 16px;
+
+        img{
+            width: 30px;
+            border-radius: 50%;
+            margin-right: 8px;
+        }
+
+        .account-info{
+            width: 100%;
+
+            .account-title{
+                font-weight: 500;
+                font-size: 12px;
+                line-height: 15px;
+                color: #FFFFFF40;
+                margin-bottom: 4px;
+            }
+
+            .address{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                 p{
+                    font-weight: 500;
+                    font-size: 12px;
+                    line-height: 15px;
+                    color: #FFFFFF;
+                    margin-bottom: 0px;
+                    display: flex;
+                    align-items: center;
+                 }
+
+                 svg{
+                    fill: #FFFFFF;
+                    margin-left: 10px;
+                 }
+            }
+        }
+    }
+
+    .actions{
+        margin-top: 24px;
+        margin-bottom: 100px;
+        display: flex;
+        align-items: center;
+
+        .btn-continue{
+            width: 158px;
+            height: 40px;
+            margin-bottom: 0px;
+
+            &.cancel{
+                background-color: transparent;
+            }
+        }
+
+
+    }
+}

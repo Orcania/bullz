@@ -1,0 +1,128 @@
+.small_coming_card {
+  background: #191A1B;
+  border-radius: 8px;
+  padding: 14.5px 16px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  margin-right: 16px;
+
+  @media screen and (min-width: 350px) and (max-width: 768px) {
+    padding: 15px 8px;
+    margin-right: 0px;
+  }
+
+  
+  .card-number {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+
+    color: white;
+    margin-bottom: 0;
+    background-color: #4353FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    margin-right: 16px;
+
+    @media screen and (max-width: 400px){
+      width: 22px;
+      height: 22px;
+      margin-right: 6px;
+      font-size: 10px;
+      line-height: 12px;
+    }
+    @media screen and (min-width: 401px) and (max-width: 767px){
+      width: 22px;
+      height: 22px;
+      margin-right: 6px;
+      font-size: 10px;
+      line-height: 12px;
+    }
+  }
+
+  .card-avatar {
+    margin-right: 8px;
+    width: 48px !important;
+    height: 48px;
+    border-radius: 24px;
+    object-fit: cover;
+
+    @media screen and (min-width: 340px) and (max-width: 767px){
+      width: 32px !important;
+      height: 32px;
+      margin-right: 9px;
+    }
+  }
+
+  .card-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+
+    @media screen and (max-width: 400px){
+      width: 50%;
+    }
+
+    @media screen and (min-width: 401px) and (max-width: 767px){
+      width: 60%;
+    }
+
+    .card-name {
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 17px;
+      color: #FFFFFF;
+      margin-bottom: 8px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: 1;
+
+      @media screen and (min-width: 340px) and (max-width: 767px){
+        font-size: 12px;
+        line-height: 15px;
+        margin-bottom: 4px;
+      }
+    }
+
+    .card-eth {
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 15px;
+      color: #FFFFFF;
+      opacity: 0.6;
+      margin-bottom: 0;
+
+
+      @media screen and (min-width: 340px) and (max-width: 767px){
+        font-size: 10px;
+        line-height: 12px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 1;
+      }
+    }
+  }
+  .btn-continue{
+    height: 33px;
+    width: 106px;
+  }
+  .btn-sign {
+    width: 106px;
+    padding: 8px 32px;
+    border-color: #4353FF;
+    color: #4353FF;
+    height: 33px;
+  }
+}
